@@ -1,2 +1,39 @@
+.logo {
+  padding-top: 10px;
+  width: 80%;
+  margin: auto; }
+  .logo img {
+    width: 100%;
+    border: 3px black solid; }
+
+.menu div {
+  display: flex;
+  justify-content: space-between;
+  align-content: center; }
+
+.menu nav {
+  width: fit-content;
+  margin: auto; }
+
+.menu a {
+  display: inline-block;
+  border: gray solid;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+  background-color: gray;
+  font-style: italic; }
+
+.fundo {
+  background-image: url(img/gramado_de_futebol.jpg);
+  background-size: cover;
+  opacity: 0.5;
+  background-position: center;
+  position: absolute;
+  z-index: -1;
+  height: 1200px;
+  width: 100%; }
+
 body {
   margin: 0; }

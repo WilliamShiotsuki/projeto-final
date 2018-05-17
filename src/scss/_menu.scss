@@ -1,0 +1,43 @@
+.logo{
+    
+    padding-top: 10px;
+    width: 80%;
+    margin: auto;
+    
+    
+    img{
+        width: 100%;
+        border: 3px black solid;
+    }
+}
+
+
+.menu{
+    
+    
+    
+    div{
+        display: flex;
+        justify-content: space-between;
+        align-content: center;  
+    }
+    
+    nav{
+        width: fit-content;
+        
+        margin: auto;
+    }
+    
+    a{
+        display: inline-block;
+        border: gray solid; 
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 10px;
+        background-color: gray;
+        font-style: italic;
+        
+    }
+    
+}
