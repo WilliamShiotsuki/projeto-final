@@ -1,9 +1,52 @@
 @import 'menu';
 @import 'fundo';
+@import 'timer';
 
 body{
     margin: 0;
-
+    
 }
 
+footer{
+    background-color: white;
+    width: 100%;
+    
+    .rodape1{
+        justify-content: space-around;
+        display: flex;
+        
+        a{
+            color: gray;
+            text-decoration: none;
+            margin: 0px 30px;
+            font-family: sans-serif;
+            
+        }
+        
+        nav{
+            padding: 15px;
+            
+        }
+        
+    }
+    
+    .rodape2{
+        justify-content: space-around;
+        display: flex;
+        font-size: 15px;
+        width: 100%;
+        
+        p{
+            color: gray;
+            text-align: center;
+            padding: 15px;
+            font-family: sans-serif;
+            
+        }
+    }
+}
 
+.final{
+    width: 100%;
+    height: 5%;
+}
