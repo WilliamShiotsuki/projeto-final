@@ -1,0 +1,39 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    
+
+    
+}
+
+.pai{
+    background-color: white;
+    padding: 5px;
+    width: 80%;
+    margin: auto;
+    
+
+    div{
+        display: block;
+        margin: auto;
+    }
+
+}
+
+
+.titulo{
+    
+    background-color: darkred;
+    width: 80%;
+    border: black solid 3px;
+    border-radius: 20px;
+
+    p{
+        font-size: 3em;
+        color: white;
+        margin: auto;
+        justify-content: center;
+
+        
+    }
+}

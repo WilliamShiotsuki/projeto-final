@@ -1,8 +1,10 @@
 .logo{
-
+    
     padding-top: 10px;
     width: 80%;
     margin: auto;
+    display: none;
+
     
     
     img{
@@ -12,6 +14,28 @@
 }
 
 
+.hidden{
+
+    display: flex;
+    
+
+    ul{
+        margin: 0px;
+
+    }
+    
+    li{
+        list-style-type: none;
+        background-color: white;
+        width: 30%;
+        font-family: sans-serif;
+        padding: 5px;
+
+
+
+    }
+}
+
 .menu{
     
     width: 80%;
@@ -20,35 +44,40 @@
     border-radius: 0px 0px 20px 20px;
     margin-top: -3px;
     
-    div{
-        display: flex;
-        justify-content: space-between;
-        align-content: center;  
-    }
-    
     nav{
+        display: none;
         width: fit-content;
         margin: auto;
-    }
-    
-    a{
-        display: inline-block;
-        color: rgb(177, 27, 0);
-        text-decoration: none;
-        font-weight: bold;
-        padding: 10px;
-        background-color: white;
-        border-radius: 5px;
-        width: 100px;
-        text-align: center;
-        font-family: sans-serif;
-              
-    }
+        
+        a{
+            display: inline-block;
+            color: rgb(177, 27, 0);
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px;
+            background-color: white;
+            border-radius: 5px;
+            width: 100px;
+            text-align: center;
+            font-family: sans-serif;
+            
+        }
 
-    a:hover{
-        color: rgb(255, 39, 1);
-
-              
+        a:hover{
+            color: rgb(255, 39, 1);    
+        }
     }
-    
+}
+
+@media(min-width: 770px) {
+   .logo{
+       display: block;
+
+   }
+   
+    .menu {
+        nav {
+            display: block;
+        }
+    }
 }

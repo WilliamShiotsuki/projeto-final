@@ -5,7 +5,7 @@ let cleanCSS = require('gulp-clean-css');
 let browserSync = require('browser-sync').create();
 
 gulp.task('html', function() {
-    return gulp.src('./src/index.html')
+    return gulp.src('./src/*.html')
     .pipe(gulp.dest('./dist'));
 });
 

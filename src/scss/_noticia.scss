@@ -1,0 +1,81 @@
+.terceira{
+    width: 78%;
+    margin: auto;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    
+    
+    .news{
+        width: 47%;
+        background-color: darkred;
+        border-radius: 20px;
+        font-size: 2em;
+        font-family: sans-serif;
+        font-weight: bold;
+        color: white;
+        text-align: center;
+        border: black solid 3px;
+        margin: auto;
+        
+        p{
+            margin: auto;
+            
+        }
+        
+    }
+    
+    .display{
+        background-color: whitesmoke;
+        padding: 10px;
+        display: block;
+        justify-content: space-around;
+        
+        div{
+            transition: transform .3s ease;
+            width: 60%;
+            display: flex;
+            align-items: center;
+            margin: auto;
+            // justify-content: flex-end;
+            
+            img{
+                width: 40%;
+                display: block;
+                margin: auto;
+                
+                
+            }            
+        }
+        
+        div:hover{
+            transform: scale(1.01) translate3d(0, 0, 0);
+        }
+        
+        a{
+            display: inline-block;
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+            font-family: sans-serif;
+        }
+    }   
+}
+
+@media(min-width: 770px) {
+    .terceira {
+        .display{
+            display: flex;
+            
+            div{
+                display: block;
+            }
+            
+        }
+        
+    }
+}
