@@ -17,7 +17,7 @@ let x = setInterval(function() {
     let seconds = Math.floor((distance % (1000 * 60)) / 1000);
     
     // Output the result in an element with id="demo"
-    document.querySelector ("#counterDown").innerHTML = `Faltam ${days} Dias ${hours} Horas ${minutes} Minutos para a COPA. `
+    document.querySelector ("#counterDown").innerHTML = `Faltam ${days} Dias ${hours} Horas ${minutes} Minutos ${seconds} Segundos  para a COPA. `
     
     // If the count down is over, write some text 
     if (distance < 0) {

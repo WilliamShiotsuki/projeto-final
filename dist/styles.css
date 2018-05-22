@@ -57,7 +57,8 @@
   z-index: -1;
   height: 1000px;
   width: 100%;
-  display: none; }
+  display: none;
+  background-repeat: repeat-y; }
 
 .segunda {
   background-color: white;
@@ -152,25 +153,44 @@ body {
   margin: 0px;
   padding: 0px; }
 
+.pag {
+  padding-top: 10px; }
+
 .pai {
   background-color: white;
   padding: 5px;
   width: 80%;
+  margin: auto;
+  margin-bottom: 30px;
+  border-radius: 30px; }
+
+div {
+  display: block;
   margin: auto; }
-  .pai div {
-    display: block;
-    margin: auto; }
 
 .titulo {
   background-color: darkred;
-  width: 80%;
+  width: 90%;
   border: black solid 3px;
-  border-radius: 20px; }
+  border-radius: 20px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  text-align: center; }
   .titulo p {
     font-size: 3em;
     color: white;
     margin: auto;
     justify-content: center; }
+
+.estadios {
+  width: 60%;
+  display: block;
+  align-items: center;
+  margin: auto; }
+  .estadios img {
+    width: 100%;
+    display: block;
+    margin: auto; }
 
 body {
   margin: 0;
