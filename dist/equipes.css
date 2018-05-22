@@ -1,0 +1,31 @@
+body {
+  margin: 0px;
+  padding: 0px; }
+
+.fundoequipes {
+  background-image: url(img/campo.png);
+  background-size: cover;
+  opacity: 0.5;
+  background-position: center;
+  position: absolute;
+  z-index: -1;
+  height: 1000px;
+  width: 100%;
+  display: none; }
+
+.paiequipes {
+  background-color: white;
+  padding: 5px;
+  width: 80%;
+  margin: auto; }
+
+.tituloequipes {
+  background-color: darkred;
+  width: 80%;
+  border: black solid 3px;
+  border-radius: 20px; }
+  .tituloequipes p {
+    font-size: 3em;
+    color: white;
+    margin: auto;
+    justify-content: center; }

@@ -59,6 +59,17 @@
   width: 100%;
   display: none; }
 
+.fundoequipes {
+  background-image: url(img/campo.png);
+  background-size: cover;
+  opacity: 0.5;
+  background-position: center;
+  position: absolute;
+  z-index: -1;
+  height: 1000px;
+  width: 100%;
+  display: none; }
+
 .segunda {
   background-color: white;
   width: 80%;
